@@ -48,6 +48,10 @@ public class ConfigFileManager_v3 {
         }
         return INSTANCE;
     }
+
+    public static void doSomething(){ // dopisuję dowolną metodę nie związaną z samą instancją, by zobaczyć czy jest eager czy lazy
+        System.out.println("Something.");
+    }
     // pierwszy if nie blokuje wątków (nie mamy synchronizacji), teoretycznie jeśli INSTANCE jest stworzona
     // to wszystkie wątki mogą z niej skorzystać; jeśli INSTANCE nie jest stworzona, to wątki zatrzymują się
     // przy synchronized, jeden przechodzi, upewnia się, że żaden inny nie dostał się przed nim, nadpisuje INSTANCE

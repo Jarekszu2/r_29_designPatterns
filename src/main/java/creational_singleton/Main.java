@@ -34,5 +34,8 @@ public class Main {
 
         // wersja: Intellij
         DataBaseConnection_v5.getInstance();
+
+        // wersja 6
+        ConfigFileManager_v6.getInstance();
     }
 }
