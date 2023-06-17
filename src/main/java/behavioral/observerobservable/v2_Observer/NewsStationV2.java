@@ -1,7 +1,5 @@
 package behavioral.observerobservable.v2_Observer;
 
-import behavioral.observerobservable.handyMade.News;
-
 import java.util.Observable;
 
 public class NewsStationV2 extends Observable {
