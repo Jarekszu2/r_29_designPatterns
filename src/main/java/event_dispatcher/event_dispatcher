@@ -1,0 +1,6 @@
+tworzę wydarzenia (eventy), którymi będzie sterowana aplikacja
+tworzę obiekty (np. osoby), które mogą być informowane o różnych wydarzeniach, które pojawiają się w systemie (aplikacji)
+każda z tych osób będzie miała inne metody, będzie reagować na inne wydarzenie
+nadajemy tym obiektom (osobom) własciwości nasłuchiwania na różne czynności (listener)
+dodaję dependency: commons-lang3 od apache (apache ma dużo ciekawych funkcji do wykorzystania)
+żeby ułatwić przeszukiwanie bazy (projektu) robimy mapę gdzie kluczem będzie typ interfejsu, a wartością lista obiektów tej klasy
